@@ -1,7 +1,7 @@
 {
   "name": "vscode-lqf",
   "displayName": "vscode-lqf",
-  "description": "",
+  "description": "LQF language support for VS Code",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.100.0"
@@ -9,13 +9,30 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "vscode-lqf.helloWorld",
         "title": "Hello World"
+      }
+    ],
+    "languages": [
+      {
+        "id": "lqf",
+        "aliases": ["LQF", "lqf"],
+        "extensions": [".lqf"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "lqf",
+        "scopeName": "source.lqf",
+        "path": "./syntaxes/lqf.tmLanguage.json"
       }
     ]
   },
