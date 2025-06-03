@@ -1,6 +1,6 @@
 {
   "name": "vscode-lqf",
-  "displayName": "lqf Syntax Highlighting",
+  "displayName": "lqf Configuration Language",
   "description": "LQF language support for VS Code",
   "version": "0.0.1",
   "engines": {
