@@ -2,7 +2,8 @@
   "name": "vscode-lqf",
   "displayName": "lqf Configuration Language",
   "description": "LQF language support for VS Code",
-  "version": "0.0.1",
+  "version": "0.1.1",
+  "icon": "lqf-icon.png",
   "engines": {
     "vscode": "^1.100.0"
   },
